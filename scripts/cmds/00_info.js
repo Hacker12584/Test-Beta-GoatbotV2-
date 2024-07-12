@@ -5,7 +5,7 @@ module.exports = {
 	config: {
 		name: "info",
 		version: "1.0",
-		author: "cliff",
+		author: "Aljur Pogoy",
 		countDown: 20,
 		role: 0,
 		shortDescription: { vi: "", en: "" },
@@ -23,7 +23,7 @@ module.exports = {
 		const authorFB = "https://www.facebook.com/profile.php?id=100073129302064";
 		const authorInsta = "Unknown";
 		const tikTok = "Unknown";
-		const urls = JSON.parse(fs.readFileSync('cliff.json'));
+		const urls = JSON.parse(fs.readFileSync('gilgamesh.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
 		const date = now.format('MMMM Do YYYY');
